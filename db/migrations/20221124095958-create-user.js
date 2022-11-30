@@ -32,7 +32,7 @@ module.exports = {
         type: Sequelize.STRING,
       },
       phoneNumber: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.CHAR(13),
       },
       image: {
         type: Sequelize.TEXT,
